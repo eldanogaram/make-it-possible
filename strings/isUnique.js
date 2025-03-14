@@ -1,3 +1,8 @@
+/**
+ * Indicates if a string is full of unique letters
+ * @param {*} s String to check
+ * @returns 
+ */
 function isUnique(s) {
     const os = Array.from(s).sort();
     for (let i = 0; i < os.length - 1; i++) {
